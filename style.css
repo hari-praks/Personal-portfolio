@@ -1,0 +1,79 @@
+#id1{
+			text-align: center;
+			padding: 20px;
+			background-color: #fbe3e8;
+			margin-bottom: 20px;
+			color:navy;
+
+		}
+		#id2{
+			background-color: #FAD0E5;
+			padding: 20px;
+			margin-bottom: 40px;
+		}
+		#id3{
+			background-color: #E3AFBC;
+			padding: 20px;
+			margin-top: 170px;
+			border-radius: 5px;
+		}
+		.class4{
+			background-color: rgba(10,5,16,1);
+			padding: 3%;
+			margin-top: 20px;
+			color: white;
+
+		}
+		
+
+#btn-contact{
+	width: 87%;
+	background-color: #ff1d58;
+	padding:10px 30px;
+	border:0;
+	outline:none;
+
+}
+#btn-contact:hover{
+	background-color:#a28089;
+}
+#btn-contact1{
+	width: 87%;
+	background-color: #ff1d58;
+	padding:10px 30px;
+	border:0;
+	outline:none;
+
+}
+#btn-contact1:hover{
+	background-color:#a28089;
+}
+#btn-contact2{
+	width: 87%;
+	background-color: #ff1d58;
+	padding:10px 30px;
+	border:0;
+	outline:none;
+
+}
+#btn-contact2:hover{
+	background-color:#a28089;
+}
+.class1{
+	width: 30%;
+	background-color: linen;
+	float: left;
+	margin-right: 5%;
+}
+.class2{
+	width: 30%;
+	background-color: linen;
+	float: left;
+	margin-right: 5%;
+
+}
+.class3{
+	width: 30%;
+	background-color: linen;
+	float: left;
+}
