@@ -1,64 +1,46 @@
-#id1{
-			text-align: center;
-			padding: 20px;
-			background-color: #fbe3e8;
-			margin-bottom: 20px;
-			color:navy;
 
-		}
-		#id2{
-			background-color: #FAD0E5;
-			padding: 20px;
-			margin-bottom: 40px;
-		}
-		#id3{
+		#about{
 			background-color: #E3AFBC;
 			padding: 20px;
-			margin-top: 170px;
 			border-radius: 5px;
+			margin-left: 10%;
+			margin-right: 10%;
 		}
-		.class4{
-			background-color: rgba(10,5,16,1);
-			padding: 3%;
-			margin-top: 20px;
-			color: white;
+		
+#home{
+	background-color: #F8C43B;
+	color:blue;
+	text-align: center;
+	margin-left:5%;
+}		
 
+#line{
+	width: 40px;
+    height: 5px;
+    background-color: #F8C43B;
+    margin-left: 5%;
+
+}
+#title{
+			margin-left: 45%;
+			font-size: 35px;
+			color: white;
+		}
+
+		#skills
+		{
+			border-bottom: 5px solid yellow;
+			color: black;
+			margin-left: 45%;
+			font-size: 30px;
+			font-family:Arial Black;
+		}
+		#cid{
+			color:white;
+			text-decoration: none;
 		}
 		
 
-#btn-contact{
-	width: 87%;
-	background-color: #ff1d58;
-	padding:10px 30px;
-	border:0;
-	outline:none;
-
-}
-#btn-contact:hover{
-	background-color:#a28089;
-}
-#btn-contact1{
-	width: 87%;
-	background-color: #ff1d58;
-	padding:10px 30px;
-	border:0;
-	outline:none;
-
-}
-#btn-contact1:hover{
-	background-color:#a28089;
-}
-#btn-contact2{
-	width: 87%;
-	background-color: #ff1d58;
-	padding:10px 30px;
-	border:0;
-	outline:none;
-
-}
-#btn-contact2:hover{
-	background-color:#a28089;
-}
 .class1{
 	width: 30%;
 	background-color: linen;
@@ -66,14 +48,24 @@
 	margin-right: 5%;
 }
 .class2{
-	width: 30%;
-	background-color: linen;
-	float: left;
-	margin-right: 5%;
+	background-color: #E3AFBC;
+	padding: 20px;
+	border-radius: 5px;
+	margin: 10%;
+		}
 
-}
+
 .class3{
 	width: 30%;
 	background-color: linen;
 	float: left;
 }
+.class4{
+			background-color: rgba(10,5,16,1);
+			padding: 3%;
+			margin-top: 20px;
+			color: white;
+
+		}
+
+	
