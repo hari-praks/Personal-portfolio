@@ -1,37 +1,42 @@
 
-		#about{
-			background-color: #E3AFBC;
-			padding: 20px;
-			border-radius: 5px;
-			margin-left: 10%;
-			margin-right: 10%;
-		}
-		
-#home{
-	background-color: #F8C43B;
-	color:blue;
-	text-align: center;
-	margin-left:5%;
-}		
 
-#line{
-	width: 40px;
-    height: 5px;
-    background-color: #F8C43B;
-    margin-left: 5%;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #381333;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:#381333;
+  margin-right: 10%;
 
 }
-#title{
-			margin-left: 45%;
-			font-size: 35px;
-			color: white;
-		}
 
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  border-bottom: 5px solid #F8C43B;
+  color: white;
+}
+
+.topnav a.active {
+  border-bottom: 50px solid #D9992D
+  color: white;
+}
+		
 		#skills
 		{
 			border-bottom: 5px solid yellow;
 			color: black;
-			margin-left: 45%;
+			margin: 45%;
 			font-size: 30px;
 			font-family:Arial Black;
 		}
@@ -41,12 +46,6 @@
 		}
 		
 
-.class1{
-	width: 30%;
-	background-color: linen;
-	float: left;
-	margin-right: 5%;
-}
 .class2{
 	background-color: #E3AFBC;
 	padding: 20px;
@@ -54,18 +53,113 @@
 	margin: 10%;
 		}
 
-
-.class3{
-	width: 30%;
-	background-color: linen;
-	float: left;
-}
 .class4{
 			background-color: rgba(10,5,16,1);
 			padding: 3%;
 			margin-top: 20px;
 			color: white;
+			width: 100%;
 
 		}
-
+#myimage{
+	border: 5px solid white;
+	border-radius: 5px;
+	width: 100%;
+	height: auto;
 	
+}
+
+.Mywebpic	
+{
+	margin-left: 20%;
+		float:left; 
+		width: 20%;
+		height: 40%;
+		
+}	
+.textabtme
+{
+	width: 40%; 
+		float:left; 
+		background:white; 
+		color: black;
+		padding: 10px;
+}
+	.anokhaclass
+	{
+		margin-left: 10%;
+		width: 25%; 
+		float:left; 
+		height:auto; 
+		background:#381333; 
+		padding: 10px;
+	}
+
+	.iotclass
+	{
+		width: 25%; 
+		float:left; 
+		height:auto; 
+		background:#381333; 
+		padding: 10px;
+	}
+	.Ten{
+
+		width: 25%; 
+		float:left; 
+		height:auto; 
+		background:#381333; 
+		padding: 10px;
+	}
+	
+#eid{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	margin: 43%;
+	font-size: 30px;
+	font-family:Arial Black;
+}
+
+
+
+.text
+{
+		width: 58%; 
+		float: left; 
+		background:white; 
+		border-radius: 10px;
+		padding: 15px;
+
+}
+#welcome{
+	background-color: white;
+	width:70%;
+	height:50%;
+	color: #381333;
+	text-align: center;
+	margin-left: 15%;
+	padding: 1%;
+	border-radius: 10px;
+}
+#contentTEN
+{
+	color: black;
+	background-color: white;
+	padding: 5px;
+	margin-left: 15%;
+}
+#contentNGO
+{
+		color: black;
+	background-color: white;
+	padding: 5px;
+	margin-left: 10%;
+}
+#contentIOT
+{
+		color: black;
+	background-color: white;
+	padding: 5px;
+	margin-left: 15%;
+}
