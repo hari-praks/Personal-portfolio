@@ -4,6 +4,8 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #381333;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .topnav {
@@ -34,11 +36,12 @@ body {
 		
 		#skills
 		{
-			border-bottom: 5px solid yellow;
+			border-bottom: 5px solid  #F8C43B;
 			color: black;
 			margin: 45%;
 			font-size: 30px;
 			font-family:Arial Black;
+			margin-top: 10%;
 		}
 		#cid{
 			color:white;
@@ -47,18 +50,21 @@ body {
 		
 
 .class2{
-	background-color: #E3AFBC;
+	background-color: whitesmoke;
 	padding: 20px;
 	border-radius: 5px;
 	margin: 10%;
 		}
-
+#cid
+{
+	margin-left: 10%;
+}
 .class4{
 			background-color: rgba(10,5,16,1);
-			padding: 3%;
+			padding: 2%;
 			margin-top: 20px;
 			color: white;
-			width: 100%;
+			width: 96%;
 
 		}
 #myimage{
@@ -83,7 +89,10 @@ body {
 		float:left; 
 		background:white; 
 		color: black;
-		padding: 10px;
+		padding: 15px;
+		margin-left: 3%;
+		border: 5px solid #F8C43B;
+		border-radius: 10px;
 }
 	.anokhaclass
 	{
@@ -122,7 +131,6 @@ body {
 }
 
 
-
 .text
 {
 		width: 58%; 
@@ -158,8 +166,23 @@ body {
 }
 #contentIOT
 {
-		color: black;
+	color: black;
 	background-color: white;
 	padding: 5px;
 	margin-left: 15%;
 }
+
+@media screen and (max-width: 800px) {
+  .anokhaclass, .iotclass, .Ten {
+    width: 100%;
+    margin-left: 0%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+@media screen and (max-width: 1000px) {
+  .textabtme {
+    width: 80%;
+    margin-left: 0%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+
