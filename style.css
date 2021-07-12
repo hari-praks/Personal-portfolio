@@ -1,188 +1,320 @@
-
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #381333;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color:#381333;
-  margin-right: 10%;
-
-}
-
-.topnav a {
-  float: right;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  border-bottom: 5px solid #F8C43B;
-  color: white;
-}
-
-.topnav a.active {
-  border-bottom: 50px solid #D9992D
-  color: white;
-}
-		
-		#skills
-		{
-			border-bottom: 5px solid  #F8C43B;
-			color: black;
-			margin: 45%;
-			font-size: 30px;
-			font-family:Arial Black;
-			margin-top: 10%;
-		}
-		#cid{
-			color:white;
-			text-decoration: none;
-		}
-		
-
-.class2{
-	background-color: whitesmoke;
-	padding: 20px;
-	border-radius: 5px;
-	margin: 10%;
-		}
-#cid
-{
-	margin-left: 10%;
-}
-.class4{
-			background-color: rgba(10,5,16,1);
-			padding: 2%;
-			margin-top: 20px;
-			color: white;
-			width: 96%;
-
-		}
-#myimage{
-	border: 5px solid white;
-	border-radius: 5px;
-	width: 100%;
-	height: auto;
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title>	My portfolio-19BIT0283</title>
 	
-}
 
-.Mywebpic	
-{
-	margin-left: 20%;
-		float:left; 
-		width: 20%;
-		height: 40%;
-		
-}	
-.textabtme
-{
-	width: 40%; 
-		float:left; 
-		background:white; 
-		color: black;
-		padding: 15px;
-		margin-left: 3%;
-		border: 5px solid #F8C43B;
-		border-radius: 10px;
-}
-	.anokhaclass
-	{
-		margin-left: 10%;
-		width: 25%; 
-		float:left; 
-		height:auto; 
-		background:#381333; 
-		padding: 10px;
-	}
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="C:\Users\hari\Desktop\style.css">
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $("#TENText").on("mouseover", function() {
+      if($("#contentTEN").is(":hidden")) {
+        $("#contentTEN").slideDown("slow");
+      } else {
+        $("#contentTEN").slideUp("slow");
+      }
+    });
+  });
+    $(document).ready(function() {
+    $("#IOTText").on("mouseover", function() {
+      if($("#contentIOT").is(":hidden")) {
+        $("#contentIOT").slideDown("slow");
+      } else {
+        $("#contentIOT").slideUp("slow");
+      }
+    });
+  });
+      $(document).ready(function() {
+    $("#NGOText").on("mouseover", function() {
+      if($("#contentNGO").is(":hidden")) {
+        $("#contentNGO").slideDown("slow");
+      } else {
+        $("#contentNGO").slideUp("slow");
+      }
+    });
+  });
 
-	.iotclass
-	{
-		width: 25%; 
-		float:left; 
-		height:auto; 
-		background:#381333; 
-		padding: 10px;
-	}
-	.Ten{
+    $(document).ready(function(){
+    $('#Mywebpic').click(function(){
+    var hidden = $('.textabtme');
+    if (hidden.hasClass('visible')){
+        hidden.animate({"left":"-1000px"}, "slow").removeClass('visible');
+    } else {
+        hidden.animate({"left":"0px"}, "slow").addClass('visible');
+    }
+    });
+});
+     
+</script>
+</head>
 
-		width: 25%; 
-		float:left; 
-		height:auto; 
-		background:#381333; 
-		padding: 10px;
-	}
-	
-#eid{
-	color: white;
-	text-align: center;
-	text-decoration: none;
-	margin: 43%;
-	font-size: 30px;
-	font-family:Arial Black;
-}
+<body>
+
+<div class="topnav">
+
+<a class= "active" href="#home">Home</a>
+  <a href="#skills">Skills</a>
+  <a href="#textabtme">About</a>
+  <a href="#cid">Contact</a>
+  <a href="#eid">Experience</a>
+</div>
+<br><br><br>
+	<div  id="welcome">
+	<h1>Welcome to my page</h1>
+	<h3>I'm glad that your here!</h3>
+</div>
+</div>
+<br><br><br>
+<div>
+  <div class="Mywebpic">
+		<img  id="myimage" src="C:\Users\hari\Desktop\host\Images\Mywebpic.jpg">
+  </div>
+
+	<div class="textabtme">
+		<h2 style="font-weight:bold;">ABOUT ME:</h2>
+		<p style="font-weight:bold;">Hi everyone!This is Hari Prakash pursuing B. Tech Information Technology.If there is anything related to Music/fitness,I will be the first one to reach out those!<br>I do play badminton and chess during my free time if at all I find any!!!<br>Standup shows are my recent addiction<br><br>
+    <span style="font-weight:bold; color: red;">Now,Talking professionally</span><br><br>
+    <span style="font-weight:bold; color:#381333;">I'm a Young Multi-Tasking extrovert who is passionate to express learned technical skills for the right organization where I can gain more knowledge by working on a team and slide up my journey</span></p><br>
+		<i class="fa fa-map-marker" style="font-size: 16px; font-weight:bold; text-align: right;">&nbsp Salem,TamilNadu</i><br><br>
+    <i class="fa fa-graduation-cap" style="font-size: 16px; font-weight:bold;">&nbsp Vellore Institute of Technology,Vellore</i><br>
+	</div>
+</div>
+<div class="skillsclass">
+    <a id="skills">SKILLS</a>
+    <br><br><br>
+   <h5 style="text-align: center;"> Hover over each to see what it is!</h5>
+    <div class="flip-box" >
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png" width="100%" height="100%"  alt="C language">
+    </div>
+    <div class="flip-box-back">
+      <h5>Programming in C</h5>
+    </div>
+    </div>
+    </div>
+    <div class="flip-box1">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+    <img src="https://img.icons8.com/color/96/000000/html-5.png" width="100%" height="100%" alt="HTML 5">
+    </div>
+    <div class="flip-box-back">
+      <h5>HTML</h5>
+    </div>
+    </div>
+    </div>
+    <div class="flip-box2">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="https://img.icons8.com/color/96/000000/javascript.png" width="100%" height="100%"  alt="Javascript">
+    </div>
+    <div class="flip-box-back">
+      <h5>JavaScript</h5>
+     </div>
+    </div>
+    </div>
+<div class="flip-box3">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="C:\Users\hari\Downloads\javalogo.png" width="100%" height="100%">
+    </div>
+    <div class="flip-box-back">
+      <h5>Java Programming</h5>
+    </div>
+  </div>
+</div>
+<div class="flip-box4">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src="C:\Users\hari\Desktop\host\Images\node1.png" width="100%" height="100%">
+    </div>
+    <div class="flip-box-back">
+      <h5>Node JS<br>&<br>RESTFULL API</h5>
+    </div>
+  </div>
+</div>
+<div class="flip-box4">
+    <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src="C:\Users\hari\Desktop\host\Images\mongo2.png" width="100%" height="100%">
+    </div>
+    <div class="flip-box-back">
+      <h5>MONGODB<br>NOSQL database</h5>
+    </div>
+  </div>
+</div>
+  <br><br><br><br><br><br><br><br>
+</div>
 
 
-.text
-{
-		width: 58%; 
-		float: left; 
-		background:white; 
-		border-radius: 10px;
-		padding: 15px;
+<div style="margin-top:10%;">
+	 	<a id="eid" >EXPERIENCE</a><br><br><br><br>
+	<div class="anokhaclass">
+    	<img   width="30%" height="30%" style="margin-left:40%;" src="C:\Users\hari\Desktop\ANOKHA\Lead_work\Format & Logos\Anokha.png">
+    	<div id="NGOText"><h5 style="margin-left: 10%; background-color: #D9992D; padding: 5px; text-align:center; border-radius:2px solid black;">PR and Design lead at ANOKHA NGO</h5></div>
+      <div id="contentNGO">
+        <p>
+         Date: 10/2019–present
+          <ul style="font-weight:bold; font-size:14px;"><li>Managed a set of juniors under me to create Event posters, blogs/Articles</li>
+            <li>Organized many Events and activities</li>
+            <li>Visited Schools and taught underprivileged children</li></ul>
+        </p>
+      </div>
+    </div>
+    <div class="iotclass">
+    	<img width="40%" height="40%" style="margin-left:35%;" src="C:\Users\hari\Desktop\ioThinc\IOT logo.png">
+    	<div id="IOTText"><h5 style="margin-left: 15%; background-color: #D9992D; padding: 5px; text-align: center; border-radius:2px solid black;">Core member at IOTHINC VIT</h5></div>
+      <div id="contentIOT">
+        <p>
+         Date: 08/2019-present
+          <ul style="font-weight:bold; font-size:14px;"><li>Designed many event/festive posters </li>
+            <li>Helped in developing roadmap for conducting an Hackathon online!</li>
+            </ul>
+        </p>
+      </div>
+    </div>
+    <div class="Ten">
+      <br>
+      <img width="50%" height="40%" style="margin-left:35%;" src="C:\Users\hari\Desktop\host\Images\TENlogo.jpg">
+      <div id="TENText"><h5 style="margin-left: 15%; background-color: #D9992D; padding: 5px; text-align: center;border-radius:2px solid black;">HR Intern at The Entrepreneurship Network</h5>
+        <div id="contentTEN">
+        <p>
+         Date: 08/2020 TO 10/2020
+          <ul style="font-weight:bold; font-size:14px;"><li>Scanned over 70 resumes and recruited 25 technical interns</li>
+            <li>Guided them in terms of technical activities</li>
+            <li>Conducted weekly informal sessions to those interns </li></ul>
+        </p>
+      </div>
 
-}
-#welcome{
-	background-color: white;
-	width:70%;
-	height:50%;
-	color: #381333;
-	text-align: center;
-	margin-left: 15%;
-	padding: 1%;
-	border-radius: 10px;
-}
-#contentTEN
-{
-	color: black;
-	background-color: white;
-	padding: 5px;
-	margin-left: 15%;
-}
-#contentNGO
-{
-		color: black;
-	background-color: white;
-	padding: 5px;
-	margin-left: 10%;
-}
-#contentIOT
-{
-	color: black;
-	background-color: white;
-	padding: 5px;
-	margin-left: 15%;
-}
+    </div>
 
-@media screen and (max-width: 800px) {
-  .anokhaclass, .iotclass, .Ten {
-    width: 100%;
-    margin-left: 0%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-}
-@media screen and (max-width: 1000px) {
-  .textabtme {
-    width: 80%;
-    margin-left: 0%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-}
+</div>
+<div>
+    <a id="eid">PROJECTS</a><br><br><br><br>
+  <div class="anokhaclass">
+      <img   width="50%" height="50%" style="margin-left:30%;" src="C:\Users\hari\Desktop\host\Images\Ui.jpg">
+      <div id="NGOText"><h5 style="margin-left: 10%; background-color: #D9992D; padding: 5px; text-align:center; border-radius:2px solid black;">Analysis of UI and UX</h5></div>
+      <div id="contentNGO">
+        <p>
+         Date: 01/2021–05/2021
+          <ul style="font-weight:bold; font-size:14px;"><li>Learnt the basic UI/UX design models</li>
+            <li>Proposed a model and its working methodology for FITNESS BANDS</li></ul>
+        </p>
+      </div>
+    </div>
+    <div class="iotclass">
+      <img width="50%" height="50%" style="margin-left:35%;" src="C:\Users\hari\Desktop\host\Images\Dmt.jpg">
+      <div id="IOTText"><h5 style="margin-left: 15%; background-color: #D9992D; padding: 5px; text-align: center; border-radius:2px solid black;">Stock Market analysis using KNN model</h5></div>
+      <div id="contentIOT">
+        <p>
+         Date: 01/2021-05/2021
+          <ul style="font-weight:bold; font-size:14px;"><li>Analysed many research papers and found the approriate algorithm</li>
+            <li>Predicted Different Stock Prices using KNN model with accuracy rate of 67%</li>
+            </ul>
+        </p>
+      </div>
+    </div>
+    <div class="Ten">
+      <br>
+      <img width="50%" height="50%" style="margin-left:35%;" src="C:\Users\hari\Desktop\host\Images\webdev.jpg">
+      <div id="TENText"><h5 style="margin-left: 15%; background-color: #D9992D; padding: 5px; text-align: center;border-radius:2px solid black;">WeFORpets-a full stack website</h5>
+        <div id="contentTEN">
+        <p>
+         Date: 08/2020 – 12/2020
+          <ul style="font-weight:bold; font-size:14px;"><li>A Website designed using NodeJS & MONGODB for backend, HTML/CSS/Jquery/Js for Frontend</li>
+            <li>Visit my Github for more information</li></ul>
+        </p>
+      </div>
+
+    </div>
+
+</div>
 
 
+
+<div class="class4" style="margin-top: 40%;">
+      <h2 style="margin-left: 10%;">Contact:</h2>
+      <p style="margin-left:10%;">Email me @ariprakash2002@gmail.com </p>
+      <div>
+        <a id="cid" href="https://www.instagram.com/hari._.prakash/"><i class="fa fa-instagram">&nbsp hari_praks</i></a><br><br>
+        <a id="cid" href="https://www.facebook.com/hari.rajesh.31"><i class="fa fa-facebook-square">&nbsp hariRajesh</i></a><br><br>
+        <a id="cid" href="https://www.linkedin.com/in/hari-prakash-7467371a3/"><i class="fa fa-linkedin">&nbsp  hari_praks</i></a><br><br>
+        <h3 id="cid">Made By Hari with <3</h3>
+      </div>
+    </div>
+</body>
+
+
+
+
+
+</html>
+
+
+<!--
+<div class="text-center container-fluid">
+      <div class="row my-5">
+        <div class="col container">
+          <img src="https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png" height="100px" alt="C language">
+          <div class="overlay">
+            <div class="blue-text"><p></p><h3>C</h3><p></p></div>
+          </div>
+        </div>
+        <div class="col container">
+          <img src="https://img.icons8.com/color/96/000000/c-plus-plus-logo.png" height="100px" alt="C++">
+          <div class="overlay">
+             <div class="blue-text"><p></p><h3>C++</h3><p></p></div>
+          </div>
+        </div>
+        <div class="col container">
+          <img src="https://img.icons8.com/color/96/000000/html-5.png" height="100px" alt="HTML 5">
+          <div class="overlay">
+             <div class="orange-text"><p></p><h3>HTML-5</h3><p></p></div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col container">
+          <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-opencode-css-8.png" height="100px" alt="CSS 3">
+          <div class="overlay">
+             <div class="blue-text"><p></p><h3>CSS 3</h3><p></p></div>
+          </div>
+        </div>
+        <div class="col container">
+          <img src="assets/images/BootstrapLogo.png" height="100px" alt="Bootstrap">
+          <div class="overlay">
+             <div class="purple-text"><p></p><h3>Bootstrap</h3><p></p></div>
+          </div>
+        </div>
+        <div class="col container">
+          <img src="https://img.icons8.com/color/96/000000/javascript.png" height="100px" alt="Javascript">
+          <div class="overlay">
+             <div class="yellow-text"><p></p><h3>JavaScript</h3><p></p></div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col container">
+          <img src="https://img.icons8.com/color/96/000000/python.png" height="100px" alt="python">
+          <div class="overlay">
+             <div class="yellow-text"><p></p><h3>Python</h3><p></p></div>
+          </div>
+        </div>
+<div class="col container">
+          <img src="assets/images/MatlabLogo.png" height="100px" alt="Matlab">
+          <div class="overlay">
+             <div class="yellow-text"><p></p><h3>Matlab</h3><p></p></div>
+          </div>
+        </div>
+        <div class="col container">
+          <img src="assets/images/RLogo.png" height="100px" alt="R">
+          <div class="overlay">
+             <div class="blue-text"><p></p><h3>R</h3><p></p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  -->
